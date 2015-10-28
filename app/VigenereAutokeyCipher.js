@@ -86,4 +86,9 @@ function VigenereAutokeyCipher(key, abc) {
   };
 }
 
-module.exports = VigenereAutokeyCipher;
+try{
+    module.exports = VigenereAutokeyCipher;
+}
+catch(e){
+
+}
